@@ -34,12 +34,12 @@ The Reminder Bot is a Python-based Telegram bot designed to help users efficient
 
 ## Demo screens
 
-![](screens/start-menu.png)
-![](screens/set-reminders.png)
-![](screens/reminders-list.png)
-![](screens/delete-a-reminder.png)
-![](screens/clear-chat-history.png)
-![](screens/bot-database.png)
+![Start menu](screens/start-menu.png)
+![Set reminder](screens/set-reminders.png)
+![Reminders list](screens/reminders-list.png)
+![Delete a reminder](screens/delete-a-reminder.png)
+![Clear chat history](screens/clear-chat-history.png)
+![Bot database](screens/bot-database.png)
 
 ---
 
@@ -103,4 +103,4 @@ The Reminder Bot is a practical and user-friendly tool that combines Python, dat
 
 ---
 
-[Reminder Bot](#anchor)
+[Reminder Bot](https://t.me/reminder67_bot)
