@@ -4,9 +4,13 @@ from aiogram.types import Message, CallbackQuery, BotCommand
 from aiogram.filters import Command
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import asyncio
+import os
+from dotenv import load_dotenv
 
-# Bot token
-API_TOKEN = '7919876790:AAE8MOrpZW_fe3J3I2yXjkG6lU8BfV34Okg'
+load_dotenv()
+
+# Your Telegram bot token
+TOKEN = os.getenv("API_TOKEN")
 
 # Database setup
 conn = sqlite3.connect('reminders.db')
@@ -187,7 +191,7 @@ async def set_bot_commands(bot: Bot):
     await bot.set_my_commands(commands)
 
 async def main():
-    bot = Bot(token=API_TOKEN)
+    bot = Bot(token=TOKEN)
     dp = Dispatcher()
     dp.include_router(router)
 
